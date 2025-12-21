@@ -1,4 +1,4 @@
-class easy2 {
+class HashEasy2 {
 
     /**
      * mySecond solution, using a single counting array to count the

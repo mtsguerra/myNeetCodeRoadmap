@@ -1,6 +1,4 @@
-import java.util.*;
-
-class medium4{
+class HashMedium4 {
     /**
      * myFirst solution, calculating the total product of all elements in the
      * array while keeping track of the number of zeros. If there are more

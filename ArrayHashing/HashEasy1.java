@@ -1,6 +1,6 @@
 import java.util.*;
 
-class easy1{
+class HashEasy1 {
     /**
      * First solution; uses the method add of HashSet which returns false if
      * the element is on the set already, so it can be used for both adding

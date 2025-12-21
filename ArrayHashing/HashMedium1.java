@@ -1,6 +1,6 @@
 import java.util.*;
 
-class medium1 {
+class HashMedium1 {
     /**
      * myFirst solution, using a hash map and a string key based on the
      * counting of characters in each string to group anagrams together.

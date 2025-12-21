@@ -1,6 +1,6 @@
 import java.util.*;
 
-class easy3 {
+class HashEasy3 {
     /**
      * myFirst solution, using a hash map to store already seen numbers and
      * their indexes, then for each number checks if the complement was
@@ -22,7 +22,7 @@ class easy3 {
     }
 
     public static void main(String[] args) {
-        easy3 obj = new easy3();
+        HashEasy3 obj = new HashEasy3();
         int[] nums = {3,3};
         int target = 6;
         int[] result = obj.twoSum(nums, target);

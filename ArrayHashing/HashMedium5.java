@@ -1,6 +1,4 @@
-import java.util.*;
-
-class medium5 {
+class HashMedium5 {
     /**
      * myFirst solution, using three 2D boolean arrays to track the presence
      * of numbers in each row, column, and 3x3 sub-box. As we iterate through

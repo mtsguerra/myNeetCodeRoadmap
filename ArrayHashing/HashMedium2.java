@@ -1,6 +1,6 @@
 import java.util.*;
 
-class medium2 {
+class HashMedium2 {
     /**
      * myFirst solution,using a map to count the occurrences of each number,
      * after getting the counts, using a priority queue to sort the numbers

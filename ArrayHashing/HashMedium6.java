@@ -1,6 +1,6 @@
 import java.util.*;
 
-class medium6{
+class HashMedium6 {
     /**
      * myFirst solution, using a hash set to store the numbers in the array.
      * For each number, if its the start of a sequence (using num-1 check),
