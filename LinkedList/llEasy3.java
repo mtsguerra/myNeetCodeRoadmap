@@ -4,12 +4,16 @@ class llEasy3 {
     /**
      * <strong>LeetCode ex141. Linked List Cycle</strong>
      *
-     * <p>Approach: Using the Floyd’s Cycle-Finding Algorithm (tortoise and
-     * hare logic) to find the cycle.</p>
-     * <p>The tortoise and hare logic revolves around having two
-     * pointers, one that moves 1 node at a time (tortoise), and another
-     * moving 2 (hare).If there is a cycle they are bounded to find each
-     * other at some point.</p>
+     * <p>
+     *     Approach: Using the Floyd’s Cycle-Finding Algorithm (tortoise and
+     *      * hare logic) to find the cycle.
+     * </p>
+     * <p>
+     *     The tortoise and hare logic revolves around having two
+     *      * pointers, one that moves 1 node at a time (tortoise), and another
+     *      * moving 2 (hare).If there is a cycle they are bounded to find each
+     *      * other at some point.
+     * </p>
      *
      * <pre>
      * Complexity:
