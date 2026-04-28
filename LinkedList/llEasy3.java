@@ -4,18 +4,22 @@ class llEasy3 {
     /**
      * <h1>LeetCode ex141. Linked List Cycle</h1>
      *
-     * <h2>Approach: Using the tortoise and hare logic to find the cycle.</h2>
+     * <p>Approach: Using the Floyd’s Cycle-Finding Algorithm (tortoise and
+     * hare logic) to find the cycle.</p>
      * <p>The tortoise and hare logic revolves around having two
      * pointers, one that moves 1 node at a time (tortoise), and another
      * moving 2 (hare).If there is a cycle they are bounded to find each
      * other at some point.</p>
      *
-     * <hr>
-     *     <b>Complexity: </b> This algorithm has O(n) time complexity and O
-     *     (1) space complexity
+     * <pre>
+     * Complexity:
+     * - Time: O(n), n being the number of nodes
+     * - Space: O(1), as no extra structures are used
+     * </pre>
      *
-     * @param head Head of the linked list
-     * @return Boolean cycle
+     * @param head the head of the linked list
+     * @return {@code true} if a cycle is found
+     * @see <a href="https://leetcode.com/problems/linked-list-cycle/">LeetCode 141</a>
      */
     public boolean hasCycle(ListNode head) {
         ListNode tortoise = head;
