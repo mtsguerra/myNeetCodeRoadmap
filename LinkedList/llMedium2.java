@@ -2,6 +2,8 @@ import java.util.*;
 
 class llMedium2 {
     /**
+     * <LeetCode ex19>
+     *
      * My first solution, first I create a dummy node to iterate to get the
      * size of the linkedlist. After having the size, iterate using a previous
      * and current node, when found the node to eliminate (size-i) do it by
