@@ -2,12 +2,14 @@ import java.util.*;
 
 class llMedium2 {
     /**
-     * <LeetCode ex19>
+     * LeetCode #19: Remove Nth Node From End of List
      *
-     * My first solution, first I create a dummy node to iterate to get the
-     * size of the linkedlist. After having the size, iterate using a previous
-     * and current node, when found the node to eliminate (size-i) do it by
-     * having previous.next = current.next.
+     * <p>
+     *     Approach: start by creating a dummy node to iterate through the
+     *     linkedlist to get its size. After, iterate using a previous and
+     *     current node, until found the (size-n)-th node and remove it by
+     *     using {@code prev.next=curr.next}
+     * </p>
      * @param head the starting of the linkedlist
      * @param n the Nth element to remove from the end
      * @return the linkedlist with the element removed
