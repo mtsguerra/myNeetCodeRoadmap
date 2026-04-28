@@ -16,9 +16,9 @@ class llEasy3 {
      * </p>
      *
      * <pre>
-     * Complexity:
-     * - Time: O(n), n being the number of nodes
-     * - Space: O(1), as no extra structures are used
+     *     Complexity:
+     *      -Time: O(n), n being the number of nodes
+     *      -Space: O(1), as no extra structures are used
      * </pre>
      *
      * @param head the head of the linked list
