@@ -2,8 +2,14 @@ import java.util.*;
 
 class llMedium1 {
     /**
-     * My first solution,
-     * @param head
+     * <h1>LeetCode #143: Reorder List</h1>
+     *
+     * <p>
+     *     Approach: First start by finding the middle of the list (using
+     *     Slow&Fast pointers). Then, invert the second half and merge it
+     *     with the first half.
+     * </p>
+     * @param head Head of the linked list
      */
     public void reorderList(ListNode head) {
         if  (head == null || head.next == null) return;
