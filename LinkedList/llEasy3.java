@@ -2,7 +2,7 @@ import java.util.*;
 
 class llEasy3 {
     /**
-     * <h1>LeetCode ex141. Linked List Cycle</h1>
+     * <strong>LeetCode ex141. Linked List Cycle</strong>
      *
      * <p>Approach: Using the Floyd’s Cycle-Finding Algorithm (tortoise and
      * hare logic) to find the cycle.</p>
